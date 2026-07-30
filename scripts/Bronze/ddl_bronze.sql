@@ -1,5 +1,9 @@
 -------------------------------------------------------------------
---DDL Script: CREATING BRONZE TABLES
+/*DDL Script: CREATING BRONZE TABLES
+-------------------------------------
+This script creates multiple tables in the bronze schema, including customer information, product information,
+sales details, and various ERP tables.Each table is dropped if it already exists before being created.
+*/
 --------------------------------------------------------------------
 IF OBJECT_ID('bronze.crm_cust_info','U') IS NOT NULL
     DROP TABLE bronze.crm_cust_info;
