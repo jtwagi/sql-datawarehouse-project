@@ -1,4 +1,6 @@
+----------------------------------------------------------------------------
 --CREATE THE DATABASE & THE SCHEMAS
+-----------------------------------------------------------------------------
 USE master;
 GO
 -- CREATE THE 'Datawarehouse' DATABASE
@@ -8,7 +10,7 @@ GO
 USE DataWarehouse;
 GO
 
--- CREATING THE SCHEMAS INSIDE THE 'DataWarehouse'DATABASE--
+-- CREATING THE SCHEMAS INSIDE THE 'DataWarehouse'DATABASE
 CREATE SCHEMA bronze;
 GO
 CREATE SCHEMA silver;
