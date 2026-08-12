@@ -1,7 +1,8 @@
 /*
-Create or alter load_silver stored procedure
+Stored Procedure: EXEC silver.load_silver
 
-This script creates or alters the stored procedure 'load_silver' in the silver schema, 
+SCRIPT PURPOSE:
+>> This script creates or alters the stored procedure 'load_silver' in the silver schema, 
 which loads data into various silver tables from the bronze tables. 
 It includes error handling and execution time logging.
 
